@@ -29,7 +29,7 @@ starting and stopping for you.
 
     sudo chmod +x node_controller.sh
 
-⭐ Add this script to your crontab to automatically run (Example: `0 */2 * * * /home/server/node_controller.sh)
+⭐ Add this script to your crontab to automatically run (Example: 0 */2 * * * /home/server/node_controller.sh)
   
     sudo crontab -e
 
