@@ -35,4 +35,6 @@ starting and stopping for you.
 
 ----
 
-That's it! Congratulations, you have just automatated your docker containers to automatically start or stop! 🚀
+### That's it!
+
+Congratulations, you have just automatated your docker containers to automatically start or stop! 🚀
