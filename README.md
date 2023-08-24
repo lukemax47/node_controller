@@ -1,4 +1,20 @@
 
+     /$$   /$$                 /$$                  /$$$$$$                        /$$                         /$$ /$$                    
+    | $$$ | $$                | $$                 /$$__  $$                      | $$                        | $$| $$                    
+    | $$$$| $$  /$$$$$$   /$$$$$$$  /$$$$$$       | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ | $$| $$  /$$$$$$   /$$$$$$ 
+    | $$ $$ $$ /$$__  $$ /$$__  $$ /$$__  $$      | $$       /$$__  $$| $$__  $$|_  $$_/   /$$__  $$ /$$__  $$| $$| $$ /$$__  $$ /$$__  $$
+    | $$  $$$$| $$  \ $$| $$  | $$| $$$$$$$$      | $$      | $$  \ $$| $$  \ $$  | $$    | $$  \__/| $$  \ $$| $$| $$| $$$$$$$$| $$  \__/
+    | $$\  $$$| $$  | $$| $$  | $$| $$_____/      | $$    $$| $$  | $$| $$  | $$  | $$ /$$| $$      | $$  | $$| $$| $$| $$_____/| $$      
+    | $$ \  $$|  $$$$$$/|  $$$$$$$|  $$$$$$$      |  $$$$$$/|  $$$$$$/| $$  | $$  |  $$$$/| $$      |  $$$$$$/| $$| $$|  $$$$$$$| $$      
+    |__/  \__/ \______/  \_______/ \_______/       \______/  \______/ |__/  |__/   \___/  |__/       \______/ |__/|__/ \_______/|__/  
+
+
+----
+
+Run multiple nodes on one server? Having issues with RAM or CPU usage? Use this script to automatically start and stop your nodes based on 
+how close to COMMITTEE they are. The following script will check each node against the Node Monitor (monitor.incognito.org) API and handle
+starting and stopping for you.
+
 
 ## Getting Started
 
@@ -24,6 +40,6 @@
   
     sudo crontab -e
 
----
+----
 
 That's it! Congratulations, you have just automatated your docker containers to automatically start or stop! 🚀
