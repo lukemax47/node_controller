@@ -1,17 +1,11 @@
 
-      /$$   /$$               /$$                 /$$$$$$                     /$$                      /$$/$$                  
-     | $$$ | $$              | $$                /$$__  $$                   | $$                     | $| $$                  
-     | $$$$| $$ /$$$$$$  /$$$$$$$ /$$$$$$       | $$  \__/ /$$$$$$ /$$$$$$$ /$$$$$$   /$$$$$$  /$$$$$$| $| $$ /$$$$$$  /$$$$$$ 
-     | $$ $$ $$/$$__  $$/$$__  $$/$$__  $$      | $$      /$$__  $| $$__  $|_  $$_/  /$$__  $$/$$__  $| $| $$/$$__  $$/$$__  $$
-     | $$  $$$| $$  \ $| $$  | $| $$$$$$$$      | $$     | $$  \ $| $$  \ $$ | $$   | $$  \__| $$  \ $| $| $| $$$$$$$| $$  \__/
-     | $$\  $$| $$  | $| $$  | $| $$_____/      | $$    $| $$  | $| $$  | $$ | $$ /$| $$     | $$  | $| $| $| $$_____| $$      
-     | $$ \  $|  $$$$$$|  $$$$$$|  $$$$$$$      |  $$$$$$|  $$$$$$| $$  | $$ |  $$$$| $$     |  $$$$$$| $| $|  $$$$$$| $$      
-     |__/  \__/\______/ \_______/\_______/       \______/ \______/|__/  |__/  \___/ |__/      \______/|__|__/\_______|__/      
+![141617d7c996e466c8d2b5201950df8fbc208ddc](https://github.com/lukemax47/node_controller/assets/90896055/79d12412-7807-4c44-8c4b-5c048fd03e0a)
 
-----
+
+## Welcome to the Node Controller 👨🏼‍💻
 
 Run multiple nodes on one server? Having issues with RAM or CPU usage? Use this script to automatically start and stop your nodes based on 
-how close to COMMITTEE they are. The following script will check each node against the Node Monitor (monitor.incognito.org) API and handle
+how close to COMMITTEE they are. The following script will check each node via the Node Monitor API (monitor.incognito.org) and handle
 starting and stopping for you.
 
 
