@@ -2,7 +2,7 @@
 
 ⭐ Download the node_controller.sh script to your server.
 
-    sudo wget https://raw.github.com/lukemax47/node_controller/node_controller.sh
+    sudo wget https://raw.githubusercontent.com/lukemax47/node_controller/main/node_controller.sh
 
 ⭐ Edit the node_keys list with all of your Public Validator Keys
 
