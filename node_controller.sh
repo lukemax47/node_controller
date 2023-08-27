@@ -52,10 +52,10 @@ for node_name in "${!node_key[@]}"; do
 
     epoch=$(echo "$response" | jq -r '.[].NextEventMsg' | cut -d' ' -f1)
 
-    if [ "$epoch" -gt 10 ] && [ "$current_container_status" == "running" ]; then
+    if [ "$epoch" -gt 11 ] && [ "$current_container_status" == "running" ]; then
         echo -n "Stopping container ${container_name}${node_name} due to epoch $epoch..."
         sudo docker stop "${container_name}${node_name}"
-    elif [ "$epoch" -lt 5 ] && [ "$current_container_status" != "running" ]; then
+    elif [ "$epoch" -lt 10 ] && [ "$current_container_status" != "running" ]; then
         echo -n "Starting container ${container_name}${node_name} due to epoch $epoch..."
         sudo docker start "${container_name}${node_name}"
     fi
