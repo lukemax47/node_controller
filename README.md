@@ -15,7 +15,7 @@ starting and stopping for you.
 
     sudo wget https://raw.githubusercontent.com/lukemax47/node_controller/main/node_controller.sh
 
-⭐ Edit the node_keys list with all of your Public Validator Keys
+⭐ Edit the node_keys list with all of your Public Validator Keys (same keys used on monitor.incognito.org)
 
     sudo nano node_controller.sh
 
