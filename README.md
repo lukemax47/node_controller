@@ -21,9 +21,9 @@ starting and stopping for you.
 
 ⭐ Adjust the epoch triggers (optional) - Currently set to turn on <5 epochs
 
-    if [ "$epoch" -gt 6 ] - epochs over # to shut off container
+    if [ "$epoch" -gt 11 ] - epochs over # to shut off container
     
-    elif [ "$epoch" -lt 5 ] - epochs under # to turn on container
+    elif [ "$epoch" -lt 10 ] - epochs under # to turn on container
 
 ⭐ Make the script executable
 
