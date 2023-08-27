@@ -17,11 +17,11 @@ cd "$(dirname "$0")"
 
 # Define the keys for each node
 declare -A node_key
-# Add nodes that you want to track into node_keys.
 node_key=(
         ["1"]="1KhSvi6DTg7JNuTTQs74BMzRwmDQAgi9xPYdgdsffTzSaMkerayA5b3yomGfMk3AF5hhhhhhhGFwtb64tZUpQNpewvJjrYMfPYx1hntQCkF7TZtG5aveoiYCMK3kNRkwimMr2pAgEHEoy1YRo7Gq8fnFPW3Hr1Awfb1L9zSeHLYVjUdWUGZ41"
         ["2"]="1RwRJXYMZyAMYJxg6MomqX8gZeAjGGqvEwydXQsTkPPzC3KP3DYmutX5fA8JgPRfhRiezDhhhhhhh4AwApHJhAvjkZBbnr1u2pUzHBuaSLgADziCcacVM39nVQ6HSDjARYDQCvbR4FDueuscCUoUCDS6BtBZWZ75eFTBpSSjEFN7YfZySshih"
         ["3"]="1KMB7GBc4Lh3kQ7WoVaLrYmFcRwDYJVTf7MkDsp6HdfroAG7EPNvmRi8jdkp3oyLx3ioyMhhhhhhhhhhvAKZnakGrX6p7gfFG2nBgghPbA9QdSVNuU1AoPdqvsEG9fbxJjRyQ9XbAnhwa1jGCaZtEXRYropFpBtah6u4RK6cYxT2jKKC53s3P"
+        # Add as many nodes as you want to automate...
 )
 
 base_url="https://monitor.incognito.org/pubkeystat/stat"
