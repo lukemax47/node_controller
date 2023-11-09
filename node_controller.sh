@@ -12,7 +12,6 @@ echo '
 
 
 
-# Change to the directory the script is in
 cd "$(dirname "$0")"
 
 # Define the keys for each node
