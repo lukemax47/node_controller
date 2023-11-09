@@ -19,7 +19,7 @@ starting and stopping for you.
 
     sudo nano node_controller.sh
 
-⭐ Adjust the epoch triggers (optional) - Currently set to turn on <5 epochs
+⭐ Adjust the epoch triggers (optional) - Currently set to turn on <10 epochs
 
     if [ "$epoch" -gt 11 ] - epochs over # to shut off container
     
