@@ -25,11 +25,11 @@ echo '
 | $$ \  $$|  $$$$$$/|  $$$$$$$|  $$$$$$$      |  $$$$$$/|  $$$$$$/| $$  | $$  |  $$$$/| $$      |  $$$$$$/| $$| $$|  $$$$$$$| $$      
 |__/  \__/ \______/  \_______/ \_______/       \______/  \______/ |__/  |__/   \___/  |__/       \______/ |__/|__/ \_______/|__/  
 
-																												                                                                                 version 1.1
+								      version 1.1
 																												
 CHANGE LOG:
 v1.1 - 
-- Increased readability of script with color and region defined areas.
+- Increased readability of output with color and region defined areas.
 - Added verbose output for better debugging.
 
 v1.0 -
